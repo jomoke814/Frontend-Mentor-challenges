@@ -12,13 +12,27 @@
 
 
 body {
-    background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-img {
-    width: 200px;
+h1 {
+    color: var(--main-heading-color);
+    font-size: 5rem;
+    position: absolute;
+    top: 35%;
+}
+
+h2 {
+    color: var(--main-heading-color);
+    font-family: 'Fraunces';
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+h2:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .container {
@@ -31,8 +45,13 @@ img {
 }
 
 .intro {
-    font-family: 'Fraunces';
+    font-family: 'Fraunces', serif;
+    color: var(--main-heading-color);
     padding: 10px;
+}
+
+.into {
+    font-size: 1.3rem;
 }
 
 video {
@@ -43,9 +62,11 @@ video {
 
 .project-card {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
     padding: 20px;
+    align-items: center;
+    justify-items: center;
 }
 
 .cards {
@@ -55,11 +76,20 @@ video {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 280px;
+    height: 300px;
     width: 250px;
+    padding: 10px;
 }
 
 .cards .description {
-    padding: 5px;
-    /* text-align: center; */
+    color: hsl(215, 51%, 70%);
+    text-align: center;
+    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.cards .image img{
+    height: 150px;
+    width: 100%;
+    border-radius: 5px;
 }
