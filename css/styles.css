@@ -8,6 +8,7 @@
 
 :root {
     --main-heading-color: hsl(192,100%, 96%);
+    --main-hover-card-color: hsl(0, 0%, 100%, 0.3);
 }
 
 
@@ -82,6 +83,7 @@ video {
     height: 330px;
     width: 280px;
     padding: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .cards .description {
@@ -95,10 +97,6 @@ video {
     height: 150px;
     width: 100%;
     border-radius: 5px;
-}
-
-.cards .image img:hover {
-    transform: scale(1.1);
 }
 
 .links {
