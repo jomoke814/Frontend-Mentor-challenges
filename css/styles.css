@@ -23,7 +23,6 @@ h1 {
     font-size: 5rem;
     position: absolute;
     top: 35%;
-
 }
 
 h2 {
@@ -52,6 +51,16 @@ h2:hover {
     font-family: 'Fraunces', serif;
     color: var(--main-heading-color);
     padding: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 100%;
+    background: hsl(51, 100%, 50%);
+    mix-blend-mode: overlay;
 }
 
 .into {
