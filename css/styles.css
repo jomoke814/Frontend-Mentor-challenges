@@ -22,6 +22,7 @@ h1 {
     font-size: 5rem;
     position: absolute;
     top: 35%;
+
 }
 
 h2 {
@@ -42,6 +43,8 @@ h2:hover {
 
 .upper {
     min-height: 200px;
+    background: transparent;
+    animation-direction: alternate;
 }
 
 .intro {
@@ -57,7 +60,7 @@ h2:hover {
 video {
     object-fit: cover;
     width: 100%;
-    height: 300px;
+    height: 300px; 
 }
 
 .project-card {
@@ -70,15 +73,15 @@ video {
 }
 
 .cards {
-    border: 2px solid #302b63;
+    border: 2px solid #41295a;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 300px;
-    width: 250px;
-    padding: 10px;
+    height: 330px;
+    width: 280px;
+    padding: 20px;
 }
 
 .cards .description {
@@ -92,4 +95,26 @@ video {
     height: 150px;
     width: 100%;
     border-radius: 5px;
+}
+
+.cards .image img:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.links a {
+    color: #5defd8;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--main-heading-color);
+    text-decoration: underline;
 }
