@@ -11,6 +11,9 @@
     --main-hover-card-color: hsl(0, 0%, 100%, 0.3);
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: #41295a;  /* fallback for old browsers */
