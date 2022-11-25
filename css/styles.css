@@ -112,6 +112,24 @@ video {
     border-radius: 5px;
 }
 
+.tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tags p {
+    color: #f1e74d;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    border-left: 20px solid rgb(106, 190, 205);;
+}
+
 .links {
     display: flex;
     align-items: center;
