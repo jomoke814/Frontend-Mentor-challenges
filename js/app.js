@@ -24,8 +24,12 @@ projects.forEach(project => {
     para.textContent = `${project.description}`;
     const linkTag = document.createElement('div');
     linkTag.classList.add('links');
-    const para3 = document.createElement('p')
-    para3.textContent = 
+    const a = document.createElement('a')
+    a.innerText = `Solution`
+    a.setAttribute('href', `${project.link.link1}`);
+    const a2 = document.createElement('a');
+    a2.innerText = `Live`
+    a2.setAttribute('href', `${project.link.link2}`);
 
 
     projectCards.appendChild(card);
@@ -39,6 +43,8 @@ projects.forEach(project => {
     descriptionTag.appendChild(heading);
     descriptionTag.appendChild(para);
     descriptionTag.appendChild(linkTag);
+    linkTag.appendChild(a);
+    linkTag.appendChild(a2);
 })
 
 

@@ -13,7 +13,7 @@ Credit for the video used: Video by <a href="https://pixabay.com/users/motionsto
 | 1   | News Homepage | [Link to Repo](https://github.com/jomoke814/news-homepage)|
 | 2   | Stats Preview Card Component | [Link to Repo](https://github.com/jomoke814/stats-preview-card)|
 | 3   | Profile Card Component| [Link to Repo](https://github.com/jomoke814/profile-card)|
-| 4   | Product Preview Card Component | [Link to Repo](https://github.com/jomoke814/Product-preview-card-component/)|
+| 4   | Product Preview Card Component | [Link to Repo](https://github.com/jomoke814/Product-preview-card-component)|
 | 5   | NFT Preview Card Component | [Link to Repo](https://github.com/jomoke814/NFT-preview-card-component)|
 | 6   | Fylo Data Storage Component | [Link to Repo](https://github.com/jomoke814/fylo-storage)|
 | 7   | Four Card Feature Section | [Link to Repo](https://github.com/jomoke814/four-card-feature)|

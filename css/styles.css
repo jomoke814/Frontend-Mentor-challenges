@@ -93,7 +93,7 @@ video {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 330px;
+    height: 370px;
     width: 280px;
     padding: 20px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -124,10 +124,12 @@ video {
 }
 
 button {
+    color: #5defd8;
     border: none;
     border-radius: 5px;
     padding: 5px;
-    border-left: 20px solid rgb(106, 190, 205);;
+    border-left: 20px solid rgb(106, 190, 205);
+    text-transform: uppercase;
 }
 
 .links {
@@ -154,5 +156,6 @@ button {
         position: absolute;
         top: 39%;
         font-size: 3.2rem;
+        line-height: 1.2;
     }
 }
