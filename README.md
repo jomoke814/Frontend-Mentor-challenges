@@ -20,7 +20,7 @@ Credit for the video used: Video by <a href="https://pixabay.com/users/motionsto
 | 8   | 3-Column Preview Card Component| [Link to Repo](https://github.com/jomoke814/column-preview-card)|
 | 9   | Order Summary Component | [Link to Repo](https://github.com/jomoke814/order-summary-component)|
 | 10   | Testimonial grid section | [Link to Repo](https://github.com/jomoke814/Testimonials-grid-section)|
-| 11   | Sunnyside-Agency-Page | [Link to Repo](https://)|
+| 11   | Sunnyside-Agency-Page | [Link to Repo](https://https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/sunnyside-landing-page)|
 | 12   | Ping-Coming-Soon-Page | [Link to Repo](https://)|
 | 13   | Loopstudio-Landing-Page | [Link to Repo](https://)|
 | 14   | Huddle-Landing-Page | [Link to Repo](https://)|
