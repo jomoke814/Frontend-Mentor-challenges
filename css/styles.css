@@ -116,6 +116,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: bold;
     margin-top: 5px;
 }
 
@@ -127,8 +128,9 @@ button {
     color: #5defd8;
     border: none;
     border-radius: 5px;
-    padding: 5px;
     border-left: 20px solid rgb(106, 190, 205);
+    font-weight: bold;
+    padding: 5px;
     text-transform: uppercase;
 }
 

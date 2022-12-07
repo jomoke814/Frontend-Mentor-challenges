@@ -1,9 +1,135 @@
 let projects = [
     {
-        image: "images/desktop-design.jpg",
+        image: "images/desktop-blogr.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Junior'
+        },
+        title: "Blogr Landing Page",
+        description: "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/blogr-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-clipboard.jpg",
         tags: {
             tag1: 'HTML',
             tag2: 'CSS',
+            tag3: 'Junior'
+        },
+        title: "ClipBoard Landing Page",
+        description: "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states..",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/clipboard-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-fylo-dark.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Junior'
+        },
+        title: "Fylo Dark Themed Page",
+        description: "This design has some nice layout challenges in it. A perfect training ground to practice your Flexbox and/or Grid skills..",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/fylo-dark-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-fylo-single.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Junior'
+        },
+        title: "Fylo Single Landing Page",
+        description: "This project is great if you're starting to get confident with slightly more complex layouts. The second section with the testimonial area will provide a nice challenge.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/fylo-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-huddle-single.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS',
+            tag3: 'Newbie'
+        },
+        title: "Huddle Single Landing Page",
+        description: "A perfect first challenge if you're new to HTML and CSS. This project will get you working with a two column layout.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/huddle-single-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-huddle-curved.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS',
+            tag3: 'Junior'
+        },
+        title: "Huddle Curved Landing Page",
+        description: "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/huddle-curved-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-loopstudio.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Junior'
+        },
+        title: "Loopstudio Landing Page",
+        description: "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/loopstudio-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-ping.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Newbie'
+        },
+        title: "Ping Coming Soon Page",
+        description: "This challenge is great for beginners and offers a chance to practice basic client-side form validation.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/ping-soon-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-sunnyside.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
+            tag3: 'Junior'
+        },
+        title: "Sunnyside Agency Page",
+        description: "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+        link: {
+            link1: 'https://github.com/jomoke814/Frontend-Mentor-challenges/tree/main/sunnyside-landing-page',
+            link2: 'https://jomoke814.github.io//'
+        }
+    },
+    {
+        image: "images/desktop-design.jpg",
+        tags: {
+            tag1: 'HTML',
+            tag2: 'CSS/JS',
             tag3: 'Junior'
         },
         title: "News Homepage",
